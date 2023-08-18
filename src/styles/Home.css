@@ -1,0 +1,12 @@
+
+
+.mainHome{
+    width: 100%;
+    margin-bottom: 138px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
