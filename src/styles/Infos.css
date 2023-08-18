@@ -1,0 +1,28 @@
+
+
+.infosContent{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 100%;
+    
+}
+
+.infosRight{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+align-items: flex-end;
+}
+
+.infosRight2{
+    width: 60%;
+}
+
+.buttonsComponents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
