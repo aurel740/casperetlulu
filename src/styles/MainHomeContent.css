@@ -1,0 +1,50 @@
+
+
+.mainHomeContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.textMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding-top: 71px;
+}
+
+.homeTitle1, .homeText1{
+    color: black;
+    font-family: "Abhaya Libre";
+}
+
+.homeText1{
+    font-size: 18px;
+}
+
+.homeTitle1{
+    font-size: 25px;
+    font-weight: 800;
+}
+.pictureDiv{
+    width: 250px;
+}
+
+.picture{
+    width: 100%;
+}
+
+.catsButtons{
+    font-family: "Abhaya Libre";
+    color: white;
+    font-weight: 800;
+    background-color: #0F056B;
+    width: 124px;
+    height: 32px;
+    border-radius: 50px;
+    border-color: transparent;
+    font-size: 14px;
+
+}
