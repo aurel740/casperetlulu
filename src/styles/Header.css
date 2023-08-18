@@ -70,9 +70,9 @@
 
 
 
-.elipsesContainer{
-    position: relative;
-    top: -111px;
+.elipsesContainer {
+    position: absolute;
+    top: 15px;
     left: 20px;
     height: 250px;
     width: 240px;

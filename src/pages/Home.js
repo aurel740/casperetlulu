@@ -1,9 +1,10 @@
 import React from 'react';
+import BannerHome from '../components/BannerHome';
 
 function Home() {
   return (
-    <div>
-<p>HOME</p>   
+    <div className='home-content'>
+      <BannerHome/>
  </div>
   )
 }

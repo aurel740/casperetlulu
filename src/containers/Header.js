@@ -27,7 +27,7 @@ function Header() {
         <div className='rectanle2'>
         </div>
       </div>
-<div className='elipsesContainer'>
+      <div className='elipsesContainer'>
   <img  className='elipses elipse1' src={elipse1} alt='cercle à fond bleu foncé'/>
   <img className='elipses photo_presidente' src={photo_presidente} alt="Portrait dessin de la présidente de l'association"/>
 </div>
