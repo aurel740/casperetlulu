@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Cats() {
+function Footer() {
   return (
     <div>
-      CATS
+      
     </div>
   )
 }
 
-export default Cats
+export default Footer

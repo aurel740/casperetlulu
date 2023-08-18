@@ -3,8 +3,8 @@ import React from 'react'
 function Acivities() {
   return (
     <div>
-      
-    </div>
+ACTIVITES 
+   </div>
   )
 }
 
