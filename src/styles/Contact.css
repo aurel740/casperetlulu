@@ -75,12 +75,12 @@
 
 .contactButton {
     position: absolute;
-    top: 685px;
-    right: 402px;
+    top: 54%;
+    right: 30%;
     background-color: white;
     border-color: transparent;
-    width: 89px;
-    height: 27px;
+    width: 8%;
+    height: 3%;
     border-radius: 25px;
     font-family: "Abhaya Libre";
     font-weight: 800;
