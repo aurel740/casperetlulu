@@ -1,0 +1,33 @@
+.contactContainer {
+    background-image: url("../assets//pictures//patteInfo.png");
+    background-position: top;
+    width: 100%;
+    background-size: 850px;
+    height: 640px;
+    background-repeat: no-repeat;
+    padding-top: 466px;
+    position: relative;
+}
+
+.catContactDiv {
+    width: 317px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.catContactImg {
+    width: 100%;
+}
+
+.contactText{
+    text-align: left;
+    font-family: "Abhaya Libre";
+    font-weight: 800;
+    font-size: 18px;
+    width: 150px;
+}
+
+.email, .tel, .adress, .contactForm, .contactUsText{
+    position: absolute;
+}
