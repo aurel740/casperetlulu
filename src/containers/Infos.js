@@ -1,6 +1,7 @@
 import React from 'react'
 import DocButtonsHome from '../components/DocButtonsHome';
 import "../styles/Infos.css";
+import GreyCat from "../assets/pictures/greyCat.png";
 
 
 function Infos() {
@@ -18,7 +19,7 @@ function Infos() {
             <DocButtonsHome/>
             <DocButtonsHome/>
             <DocButtonsHome/>
-
+<div className='greyCatDiv'><img className='greyCatImg' src={GreyCat} alt="photo d'un chat gris foncé aux petites oreilles" /></div>
         </div>
 
            

@@ -5,7 +5,41 @@
     flex-direction: column;
     /* align-items: center; */
     width: 100%;
+    background-color: #0F056B;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: "Abhaya Libre";
+    font-weight: 800;
+    position: relative;
+
+}
+
+
+.infoTitle{
+    font-size: 25px;
+    text-align: center;
+}
+
+.infoText, .infosRight{
+    font-size: 18px;
+    text-align: start;
+}
+
+.infoText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraph{
+    padding-right: 50px;
     
+}
+
+.infoParagraph1{
+    padding-left: 50px;
+    padding-bottom: 30px;
 }
 
 .infosRight{
@@ -16,7 +50,7 @@ align-items: flex-end;
 }
 
 .infosRight2{
-    width: 60%;
+    width: 70%;
 }
 
 .buttonsComponents{
@@ -25,4 +59,27 @@ align-items: flex-end;
     align-items: center;
     gap: 20px;
     width: 100%;
+}
+
+.docButtonHome {
+    border-radius: 10px;
+    border-color: transparent;
+    width: 175px;
+    height: 30px;
+    font-family: "Abhaya Libre";
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.greyCatDiv {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 500px;
+    height: 300px;
+}
+
+.greyCatImg {
+    width: 100%;
+    height: 100%;
 }
