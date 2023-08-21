@@ -41,6 +41,10 @@
     padding-left: 50px;
     padding-bottom: 30px;
 }
+.infoParagraph2 {
+    padding-bottom: 30px;
+
+}
 
 .infosRight{
     display: flex;
@@ -50,7 +54,7 @@ align-items: flex-end;
 }
 
 .infosRight2{
-    width: 70%;
+    width: 75%;
 }
 
 .buttonsComponents{
