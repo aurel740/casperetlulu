@@ -1,14 +1,17 @@
 .contactContainer {
-    background-image: url("../assets//pictures/patte_info_compl.png");
+    /* background-image: url("../assets//pictures/patte_info_compl.png");
     background-position: top;
-    width: 100%;
-    background-size: 850px;
-    height: 640px;
-    background-repeat: no-repeat;
-    padding-top: 466px;
+    */
     position: relative;
+    width: 100%;
 }
 
+.patteGeante {
+    width: 100%;
+    height: 100%;
+}
+
+/* 
 .catContactDiv {
     width: 317px;
     position: absolute;
@@ -68,12 +71,12 @@
     font-size: 31px;
     width: 300px;
     text-align: center;
-}
+} */
 
 .contactButton {
     position: absolute;
-    top: 429px;
-    right: 495px;
+    top: 685px;
+    right: 402px;
     background-color: white;
     border-color: transparent;
     width: 89px;

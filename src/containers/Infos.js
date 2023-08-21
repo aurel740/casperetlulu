@@ -3,6 +3,7 @@ import DocButtonsHome from '../components/DocButtonsHome';
 import "../styles/Infos.css";
 import GreyCat from "../assets/pictures/greyCat.png";
 import BorderElement from '../components/BorderElement';
+// import Contact from './Contact';
 
 
 function Infos() {
@@ -44,8 +45,7 @@ const tab = [1,2,3];
             </div>
            
 
-       
-      
+     
     </div>
   )
 }

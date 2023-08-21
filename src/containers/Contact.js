@@ -1,11 +1,13 @@
 import React from 'react';
 import "../styles/Contact.css";
-import chatMignon from "../assets/pictures/chatmignon_1.png"
+import chatMignon from "../assets/pictures/chatmignon_1.png";
+import patteGeante from "../assets/pictures/patte_info_compl.png"
 
 
 function Contact() {
   return (
     <div className='contactContainer'>
+        <img className="patteGeante" src={patteGeante} alt="dessin d'une emprunte de chat géante avec un chat tigré de profil" />
         <button className='contactButton'>cliquez ici</button>
       {/* <div className='catContactDiv'><img className='catContactImg' src={chatMignon} /></div>
       <p className='contactText email'>E-mail:<br/>mf.rabin@sfr.fr</p>

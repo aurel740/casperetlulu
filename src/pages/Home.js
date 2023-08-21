@@ -6,6 +6,7 @@ import chaton from "../assets/pictures/chaton.png";
 import chat from "../assets/pictures/chat.png";
 import Infos from '../containers/Infos';
 import Contact from '../containers/Contact';
+import Footer from '../containers/Footer';
 
 function Home() {
   const text1 = "Le bien-être de nos amis à quatre pattes est une priorité tant pour nous que pour nos adhérents. C'est avec grand plaisir que nous vous accueillons à Janville-en-Beauce, dans l'espoir que vous puissiez potentiellement devenir la famille adoptive pour nos chats et chatons, offrant ainsi un foyer aimant pour le reste de leur vie. L'adoption des chatons, qu'ils soient avec ou sans leur mère, est une possibilité que nous proposons.";
