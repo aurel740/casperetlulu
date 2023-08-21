@@ -69,3 +69,17 @@
     width: 300px;
     text-align: center;
 }
+
+.contactButton {
+    position: absolute;
+    top: 429px;
+    right: 495px;
+    background-color: white;
+    border-color: transparent;
+    width: 89px;
+    height: 27px;
+    border-radius: 25px;
+    font-family: "Abhaya Libre";
+    font-weight: 800;
+    font-size: 15px;
+}

@@ -1,0 +1,13 @@
+
+
+.footerContainer{
+    background-color: black;
+    color: white;
+    font-family: "Abhaya Libre";
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
