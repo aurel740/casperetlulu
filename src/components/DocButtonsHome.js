@@ -1,10 +1,10 @@
 import React from 'react';
 import "../styles/Infos.css";
 
-function DocButtonsHome() {
+function DocButtonsHome({number}) {
   return (
     <div className='docButtonsHome'>
-        <button className='docButtonHome'>Voir le document n°{}</button>
+        <button className='docButtonHome'>Voir le document n°{number}</button>
       
     </div>
   )

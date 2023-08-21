@@ -5,6 +5,8 @@ import GreyCat from "../assets/pictures/greyCat.png";
 
 
 function Infos() {
+const tab = [1,2,3]
+
   return (
     <div className='infosContent'>
         <div className='infoText'>
@@ -16,9 +18,15 @@ function Infos() {
            <p className='paragraph infoParagraph2'>Le statut est à jour et justifié par le document “Association déclarée sous le régime de la loi du 1er juillet 1901”. Le document est disponible en “document n°2”.<br/><br/> L’attestation individuelle de fin de formation est aussi disponible, il justifie des compétences sur la connaissances des animaux de compagnie d’espèces domestiques (ACADED) catégorie “chat”. Le document est communiquer en n°3.</p>
             
             <div className='buttonsComponents'>
-            <DocButtonsHome/>
-            <DocButtonsHome/>
-            <DocButtonsHome/>
+                {
+                    tab.map((number) => {
+                        return  <DocButtonsHome number={number} />
+
+                    })
+
+                }
+
+        
 <div className='greyCatDiv'><img className='greyCatImg' src={GreyCat} alt="photo d'un chat gris foncé aux petites oreilles" /></div>
         </div>
 
