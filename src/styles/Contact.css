@@ -1,5 +1,5 @@
 .contactContainer {
-    background-image: url("../assets//pictures//patteInfo.png");
+    background-image: url("../assets//pictures/patte_info_compl.png");
     background-position: top;
     width: 100%;
     background-size: 850px;
@@ -20,14 +20,52 @@
     width: 100%;
 }
 
-.contactText{
+.contactText {
     text-align: left;
     font-family: "Abhaya Libre";
     font-weight: 800;
     font-size: 18px;
     width: 150px;
+    color: white;
 }
 
-.email, .tel, .adress, .contactForm, .contactUsText{
+.email,
+.tel,
+.adress,
+.contactForm,
+.contactUsText {
     position: absolute;
+}
+
+.email {
+    top: 275px;
+    left: 222px;
+}
+
+.tel {
+    top: 154px;
+    left: 421px;
+}
+
+.adress {
+    top: 198px;
+    right: 250px;
+}
+
+.contactForm{
+    top: 453px;
+    right: 186px;
+    text-align: center;
+}
+
+.formTitle{
+    margin: 0 0 4px 0;
+}
+
+.contactUsText{
+    top: 480px;
+    left: 301px;
+    font-size: 31px;
+    width: 300px;
+    text-align: center;
 }
