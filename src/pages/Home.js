@@ -19,26 +19,6 @@ function Home() {
         <MainHomeContent title={title1} text={text1} picture={chaton} word="chatons" />
         <MainHomeContent title={title2} text={text2} picture={chat} word="chats" styleFlex={{ flexDirection: "row-reverse" }} />
         <Infos />
-
-        
-        {/* <div className='kittensContent'>
-
-          <div className='text'></div>
-          <div className='picture'>
-            <div className='button seeKittens'></div>
-          </div>
-
-        </div>
-        <div className='CatsContent'>
-
-          <div className='text'></div>
-          <div className='picture'>
-          <img/>
-            <div className='button seeCats'></div>
-          </div>
-
-        </div> */}
-
       </main>
     </div>
   )

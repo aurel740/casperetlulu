@@ -1,4 +1,16 @@
 
+.topContain{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+}
+
+.borderElement{
+    width: 100%;
+    background-color: #0F056B;
+    height: 8px;
+}
 
 .infosContent{
     display: flex;
@@ -7,7 +19,7 @@
     width: 100%;
     background-color: #0F056B;
     color: white;
-    padding-top: 60px;
+    /* padding-top: 60px; */
     padding-bottom: 60px;
     font-family: "Abhaya Libre";
     font-weight: 800;

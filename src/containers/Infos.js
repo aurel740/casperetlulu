@@ -2,13 +2,21 @@ import React from 'react'
 import DocButtonsHome from '../components/DocButtonsHome';
 import "../styles/Infos.css";
 import GreyCat from "../assets/pictures/greyCat.png";
+import BorderElement from '../components/BorderElement';
 
 
 function Infos() {
-const tab = [1,2,3]
+const tab = [1,2,3];
 
   return (
     <div className='infosContent'>
+<div className='topContain'>
+<BorderElement style={{marginBottom: "9px"}} />
+<BorderElement style={{marginBottom: "6px"}}/>
+<BorderElement style={{marginBottom: "4px"}}/>
+
+</div>
+
         <div className='infoText'>
             <h2 className='infoTitle'>Les informations sur l’association</h2>
             <p className='paragraph infoParagraph1'>L’association posséde le certificat “Journal Officiel de la république française” pour les associations et fondations d’entreprise (document n°1). Il permet la création de l’association Casperetlulu avec le service de sauvetage et stérilisation des chats errants, nourrisage, socialisation et adoption des chatons avec ou sans maman chat -stérilisation et assai de socialisation de la maman, et garde de chats domestiques.</p>
@@ -20,7 +28,7 @@ const tab = [1,2,3]
             <div className='buttonsComponents'>
                 {
                     tab.map((number) => {
-                        return  <DocButtonsHome number={number} />
+                        return  <DocButtonsHome key={number} number={number} />
 
                     })
 
