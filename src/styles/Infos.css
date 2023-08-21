@@ -24,6 +24,7 @@
     font-family: "Abhaya Libre";
     font-weight: 800;
     position: relative;
+    margin-top: 70px;
 
 }
 
@@ -46,6 +47,7 @@
 
 .paragraph{
     padding-right: 50px;
+    font-weight: 500;
     
 }
 
