@@ -3,6 +3,8 @@ import "../styles/MainHomeContent.css";
 import chaton from "../assets/pictures/chaton.png";
 import chat from "../assets/pictures/chat.png";
 
+// Section contenant la présentation
+
 function MainHomeContent({picture, text, title, word, styleFlex={}}) {
 
 

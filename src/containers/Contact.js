@@ -1,8 +1,9 @@
 import React from 'react';
 import "../styles/Contact.css";
 import chatMignon from "../assets/pictures/chatmignon_1.png";
-import patteGeante from "../assets/pictures/patte_info_compl.png"
+import patteGeante from "../assets/pictures/patte_info_compl.png";
 
+// Section des coordonnées dans la patte géante
 
 function Contact() {
   return (

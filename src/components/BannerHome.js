@@ -2,6 +2,8 @@ import React from 'react';
 import "../styles/BannerHome.css";
 import bannerCats from "../assets/pictures/banner_cats.png";
 
+// Bannière de la page d'accueil
+
 function BannerHome() {
   return (
     <div className='bannerHome'>
