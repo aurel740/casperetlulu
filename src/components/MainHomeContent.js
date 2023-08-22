@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/MainHomeContent.css";
-import chaton from "../assets/pictures/chaton.png";
-import chat from "../assets/pictures/chat.png";
+// import chaton from "../assets/pictures/chaton.png";
+// import chat from "../assets/pictures/chat.png";
 
 function MainHomeContent({picture, text, title, word, styleFlex={}}) {
 
@@ -14,7 +14,7 @@ function MainHomeContent({picture, text, title, word, styleFlex={}}) {
         <p className='homeText1'>{text}</p>
     </div>
     <div className='pictureContent'>
-        <div className='pictureDiv'><img className="picture" src={picture} alt="photo d'un chaton roux"/></div>
+        <div className='pictureDiv'><img className="picture" src={picture} alt="chaton roux"/></div>
       <button className='catsButtons seeKittens'>Voir les {word}</button>
     </div>
 

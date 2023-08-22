@@ -1,10 +1,12 @@
 import React from 'react'
+import Cards from '../components/Cards'
+import kittens from '../data-provisoire/chaton.json';
 
 function Kittens() {
   return (
-    <div>
-      KITTENS
-    </div>
+    <section className='adoption'>
+      <Cards animal={kittens}/>
+    </section>
   )
 }
 
