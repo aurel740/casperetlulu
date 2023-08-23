@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/Contact.css";
-import phone from "../assets/pictures/telephone_1.png";
-import email from "../assets/pictures/email_1.png";
+// import phone from "../assets/pictures/telephone_1.png";
+// import email from "../assets/pictures/email_1.png";
 import adress from "../assets/pictures/adresse_1.png";
 import contactBulle from "../assets/pictures/bulle_contact.png";
 
@@ -26,7 +26,12 @@ function Contact() {
           <div className='contactText2 coordonnee tel'><i class="fa-solid fa-phone-volume"></i>Téléphone: 06.81.96.05.98</div>
           <div className='contactText2 coordonnee email'><i class="fa-regular fa-envelope"></i>E-mail: mf.rabin@sfr.fr</div>
         </div>
-<div className='contactText2 adress'><div className='houseDiv'><img className='houseImg' src={adress} /></div><p className='adressText'>Adresse: 14 rue de la forge<br/> 28310 Janville-en-beauce<br/> (lieu dit Outrouville)</p></div>
+<div className='contactText2 adress'>
+  <div className='houseDiv'>
+    <img className='houseImg' src={adress} alt='icone maison' />
+    </div>
+    <p className='adressText'>Adresse: 14 rue de la forge<br/> 28310 Janville-en-beauce<br/> (lieu dit Outrouville)</p>
+    </div>
 
       </div>
 
