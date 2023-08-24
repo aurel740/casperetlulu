@@ -1,45 +1,49 @@
-// import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import dataKittens from '../data-provisoire/chaton.json';
+import dataCats from "../data-provisoire/chat.json"
 import "../styles/Adoption.css"
 import femelle from '../assets/pictures/femelle.png';
 import male from '../assets/pictures/male.png';
 import inconnu from '../assets/pictures/inconnu.png';
 import imgtest from '../data-provisoire/img/chaton-a-adopter-15.webp'
 const Cards = ({ animal }) => {
-    // const [dataAnimals, setDataAnimals] = useState([]);
+    const [dataAnimals, setDataAnimals] = useState([]);
+    const [dataProvisoire, setDataProvisoire] = useState([]);
 
-    // useEffect(() => {
-    //     let fetchData = () => {
-    //         let url;
+    useEffect(() => {
+        let fetchData = () => {
+            let url;
 
-    //         if (animal === "kittens") {
-    //             url = "../data-provisoire/chaton.json";
-    //         } else if (animal === "cats") {
-    //             url = "../data-provisoire/chat.json";
-    //         }
+            if (animal === "kittens") {
+                url = "../data-provisoire/chaton.json";
+                setDataProvisoire(dataKittens);
+            } else if (animal === "cats") {
+                url = "../data-provisoire/chat.json";
+                setDataProvisoire(dataCats);
+            }
 
-    //         fetch(url) 
-    //         .then(response => {
-    //                 if (!response.ok) {
-    //                     throw new Error("Network response was not ok");
-    //                 }
-    //                 return response.json();
-    //             })
-    //             .then(data => {
-    //                 setDataAnimals(data);
-    //                 console.log(dataAnimals);
-    //             })
-    //             .catch(error => {
-    //                 console.error("Fetch error:", error);
-    //             });
-    //     };
+            fetch(url) 
+            .then(response => {
+                    if (!response.ok) {
+                        throw new Error("Network response was not ok");
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    setDataAnimals(data);
+                    console.log(dataAnimals);
+                })
+                .catch(error => {
+                    console.error("Fetch error:", error);
+                });
+        };
 
-    //     fetchData();
-    // }, [animal]);
+        fetchData();
+    }, [animal]);
 
     return (
         <div className='cards'>
-            {dataKittens.map((objet) => {
+            {dataProvisoire.map((objet) => {
                 let genreImage;
 
                 if (objet.gender === "F") {

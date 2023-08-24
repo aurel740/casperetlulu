@@ -1,0 +1,102 @@
+.catButtonEvenement, .catButtonActu {
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 150px;
+    color: aqua;
+    margin: 20px 50px;
+}
+.catButton img {
+height: 80px;
+}
+.catButtonColor {
+    background-image: blue;
+}
+.catButton {
+    height: 150px;
+    color: white;
+    margin: auto;
+}
+
+.mainPictureActu {
+    height: 340px;
+}
+.cardsEventFlex {
+    width: 65%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    margin-bottom: 50px;
+}
+.date {
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.cardsEventFlex, .date, .infoUseful, .lien, .infoEvent, .infoUsefulActu {
+    display: flex;
+}
+.infoUseful {
+    width: 90%;
+    margin: auto;
+}
+
+.lien {
+    width: 50%;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.infoPlace {
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    text-align: left;
+}
+.infoPlace p {
+    margin: 0px;
+    padding: 5px 0px;
+}
+.separation{
+    border-bottom: 1px solid black;
+}
+.infoEvent {
+flex-direction: column;
+}
+
+.linkEvent {
+    background-color: #E1DCD2;
+    color: black;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.textEvent {
+    margin-bottom: 5px;
+}
+h4 {
+    margin: 0px;
+}
+.descriptionEvent {
+    width: 90%;
+    margin: auto;
+}
+.logoFacebook {
+    height: 50px;
+}
+.partager {
+    width: 30%;
+}
+.infoUsefulActu {
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 15px 25px;
+}
+.infoUsefulActu p {
+    margin: 10px;
+}
+.linkActu {
+    margin-top: 15px;
+}
+.linkActu p {
+    margin-bottom: 20px;
+}
